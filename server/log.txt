@@ -1,0 +1,137 @@
+Mar 24 06:26:14 raspberrypi CRON[1405]: pam_unix(cron:session): session closed for user root
+Mar 24 06:47:01 raspberrypi CRON[19644]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 06:47:05 raspberrypi CRON[19644]: pam_unix(cron:session): session closed for user root
+Mar 24 07:17:01 raspberrypi CRON[19679]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 07:17:01 raspberrypi CRON[19679]: pam_unix(cron:session): session closed for user root
+Mar 24 08:17:01 raspberrypi CRON[19725]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 08:17:01 raspberrypi CRON[19725]: pam_unix(cron:session): session closed for user root
+Mar 24 09:17:01 raspberrypi CRON[19771]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 09:17:01 raspberrypi CRON[19771]: pam_unix(cron:session): session closed for user root
+Mar 24 10:17:01 raspberrypi CRON[19817]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 10:17:01 raspberrypi CRON[19817]: pam_unix(cron:session): session closed for user root
+Mar 24 11:17:01 raspberrypi CRON[19864]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 11:17:01 raspberrypi CRON[19864]: pam_unix(cron:session): session closed for user root
+Mar 24 12:17:01 raspberrypi CRON[19909]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 12:17:01 raspberrypi CRON[19909]: pam_unix(cron:session): session closed for user root
+Mar 24 13:17:01 raspberrypi CRON[19954]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 13:17:01 raspberrypi CRON[19954]: pam_unix(cron:session): session closed for user root
+Mar 24 14:17:01 raspberrypi CRON[20046]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 14:17:01 raspberrypi CRON[20046]: pam_unix(cron:session): session closed for user root
+Mar 24 15:17:01 raspberrypi CRON[20093]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 15:17:01 raspberrypi CRON[20093]: pam_unix(cron:session): session closed for user root
+Mar 24 16:17:01 raspberrypi CRON[20140]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 16:17:01 raspberrypi CRON[20140]: pam_unix(cron:session): session closed for user root
+Mar 24 17:17:01 raspberrypi CRON[20289]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 17:17:01 raspberrypi CRON[20289]: pam_unix(cron:session): session closed for user root
+Mar 24 18:17:01 raspberrypi CRON[20454]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 18:17:02 raspberrypi CRON[20454]: pam_unix(cron:session): session closed for user root
+Mar 24 19:17:01 raspberrypi CRON[20499]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 19:17:01 raspberrypi CRON[20499]: pam_unix(cron:session): session closed for user root
+Mar 24 20:17:01 raspberrypi CRON[20544]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 20:17:01 raspberrypi CRON[20544]: pam_unix(cron:session): session closed for user root
+Mar 24 21:17:01 raspberrypi CRON[20700]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 21:17:01 raspberrypi CRON[20700]: pam_unix(cron:session): session closed for user root
+Mar 24 21:44:32 raspberrypi systemd-logind[296]: New seat seat0.
+Mar 24 21:44:34 raspberrypi sshd[413]: Server listening on 0.0.0.0 port 22.
+Mar 24 21:44:34 raspberrypi sshd[413]: Server listening on :: port 22.
+Mar 24 21:44:35 raspberrypi login[405]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar 24 21:44:35 raspberrypi systemd-logind[296]: New session c1 of user pi.
+Mar 24 21:44:35 raspberrypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Mar 24 21:50:30 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/raspi-config
+Mar 24 21:50:30 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar 24 21:50:56 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 21:51:00 raspberrypi systemd-logind[321]: New seat seat0.
+Mar 24 21:51:02 raspberrypi sshd[436]: Server listening on 0.0.0.0 port 22.
+Mar 24 21:51:02 raspberrypi sshd[436]: Server listening on :: port 22.
+Mar 24 21:51:03 raspberrypi login[429]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar 24 21:51:03 raspberrypi systemd-logind[321]: New session c1 of user pi.
+Mar 24 21:51:04 raspberrypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Mar 24 21:51:06 raspberrypi lightdm: pam_unix(lightdm-autologin:session): session opened for user pi by (uid=0)
+Mar 24 21:51:06 raspberrypi systemd-logind[321]: New session c2 of user pi.
+Mar 24 21:51:10 raspberrypi polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.9 [lxpolkit], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  8 15:17:58 raspberrypi sshd[1094]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.86.210  user=pi
+Apr  8 15:18:00 raspberrypi sshd[1094]: Failed password for pi from 192.168.86.210 port 50904 ssh2
+Apr  8 15:18:06 raspberrypi sshd[1094]: Accepted password for pi from 192.168.86.210 port 50904 ssh2
+Apr  8 15:18:06 raspberrypi sshd[1094]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Apr  8 15:18:06 raspberrypi systemd-logind[321]: New session c3 of user pi.
+Apr  8 15:24:08 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/date -s Wed Apr  8 15:24:15 EST 2020
+Apr  8 15:24:08 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Apr  8 15:24:08 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 15:24:15 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/date -s Wed Apr 8 15:24:15 EST 2020
+Apr  8 15:24:15 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Apr  8 15:24:15 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 15:24:48 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/date -s Wed Apr 8 15:24:15 UTC 2020
+Apr  8 15:24:48 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Apr  8 11:24:15 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 15:56:19 raspberrypi sshd[1329]: Accepted password for pi from 192.168.86.210 port 52260 ssh2
+Apr  8 15:56:19 raspberrypi sshd[1329]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Apr  8 15:56:19 raspberrypi systemd-logind[321]: New session c4 of user pi.
+Apr  8 15:57:55 raspberrypi sshd[1339]: Received disconnect from 192.168.86.210 port 52260:11: disconnected by user
+Apr  8 15:57:55 raspberrypi sshd[1339]: Disconnected from 192.168.86.210 port 52260
+Apr  8 15:57:55 raspberrypi sshd[1329]: pam_unix(sshd:session): session closed for user pi
+Apr  8 15:57:55 raspberrypi systemd-logind[321]: Removed session c4.
+Apr  8 16:00:40 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi/honeypot/server/1 ; USER=root ; COMMAND=/usr/bin/apt-get python
+Apr  8 16:00:40 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Apr  8 16:00:40 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 16:00:47 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi/honeypot/server/1 ; USER=root ; COMMAND=/usr/bin/apt-get install python
+Apr  8 16:00:47 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Apr  8 16:00:52 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 16:01:22 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi/honeypot/server/1 ; USER=root ; COMMAND=/usr/bin/apt-get install python3
+Apr  8 16:01:22 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Apr  8 16:01:26 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 16:02:37 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi/honeypot/server/1 ; USER=root ; COMMAND=/usr/bin/apt update
+Apr  8 16:02:37 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Apr  8 16:03:19 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 16:03:52 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi/honeypot/server/1 ; USER=root ; COMMAND=/usr/bin/apt install python3.
+Apr  8 16:03:52 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Apr  8 16:03:56 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 16:04:00 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi/honeypot/server/1 ; USER=root ; COMMAND=/usr/bin/apt install python3.7
+Apr  8 16:04:00 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Apr  8 16:04:02 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 16:04:45 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi/honeypot/server/1 ; USER=root ; COMMAND=/usr/bin/apt install python3.7
+Apr  8 16:04:45 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Apr  8 16:04:48 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 16:05:02 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi/honeypot/server/1 ; USER=root ; COMMAND=/usr/bin/apt-get update
+Apr  8 16:05:02 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Apr  8 16:05:10 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 16:05:15 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi/honeypot/server/1 ; USER=root ; COMMAND=/usr/bin/apt install python3.7
+Apr  8 16:05:15 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Apr  8 16:05:18 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 16:05:22 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi/honeypot/server/1 ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+Apr  8 16:05:22 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Apr  8 16:17:01 raspberrypi CRON[5008]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 16:17:01 raspberrypi CRON[5008]: pam_unix(cron:session): session closed for user root
+Apr  8 16:52:32 raspberrypi sshd[436]: Received signal 15; terminating.
+Apr  8 16:52:32 raspberrypi sshd[29173]: Server listening on 0.0.0.0 port 22.
+Apr  8 16:52:32 raspberrypi sshd[29173]: Server listening on :: port 22.
+Apr  8 16:53:01 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 16:53:16 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi/honeypot/server/1 ; USER=root ; COMMAND=/usr/bin/apt install python3.7
+Apr  8 16:53:16 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Apr  8 16:53:19 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 16:53:24 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi/honeypot/server/1 ; USER=root ; COMMAND=/usr/bin/apt install python3
+Apr  8 16:53:24 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Apr  8 16:53:33 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 16:53:39 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi/honeypot/server/1 ; USER=root ; COMMAND=/usr/bin/apt-get install python3
+Apr  8 16:53:39 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Apr  8 16:53:42 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 16:53:46 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi/honeypot/server/1 ; USER=root ; COMMAND=/usr/bin/apt-get install python3.7
+Apr  8 16:53:46 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Apr  8 16:53:48 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 16:54:18 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi/honeypot/server/1 ; USER=root ; COMMAND=/usr/bin/apt-get install python3.6
+Apr  8 16:54:18 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Apr  8 16:54:21 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 16:54:53 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi/honeypot/server/1 ; USER=root ; COMMAND=/usr/bin/apt-get install build-essential checkinstall
+Apr  8 16:54:53 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Apr  8 16:55:09 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 16:55:20 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi/honeypot/server/1 ; USER=root ; COMMAND=/usr/bin/apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev
+Apr  8 16:55:20 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Apr  8 16:58:23 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 17:04:33 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/tmp/Python-3.7.5 ; USER=root ; COMMAND=/usr/bin/make install
+Apr  8 17:04:33 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Apr  8 17:17:02 raspberrypi CRON[11092]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 17:17:02 raspberrypi CRON[11092]: pam_unix(cron:session): session closed for user root
+Apr  8 17:34:46 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 18:17:01 raspberrypi CRON[14526]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 18:17:01 raspberrypi CRON[14526]: pam_unix(cron:session): session closed for user root
+Apr  8 19:17:01 raspberrypi CRON[14594]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 19:17:01 raspberrypi CRON[14594]: pam_unix(cron:session): session closed for user root
