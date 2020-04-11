@@ -62,3 +62,20 @@
   position: fixed;
   top: calc(100vh - 64px);
 }
+
+.App-grid {
+  display: grid;
+  column-gap: 64px;
+  row-gap: 64px;
+  grid-template-areas: 
+    "card card card card";
+}
+
+.App-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 16px 0px 32px 16px #282c3422;
+  grid-area: 'card';
+  padding: 16px;
+  justify-self: center;
+}
