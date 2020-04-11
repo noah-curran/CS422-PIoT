@@ -78,9 +78,9 @@ def run_server(port: int) -> None:
     server_socket: socket.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_socket.bind(('', port))
 
-    server_socket.listen(5)
+    server_socket.listen(10)
 
-    thread_pool = ThreadPool(5)
+    thread_pool = ThreadPool(10)
 
     thread_pool.map(handle_connection, [server_socket])
 

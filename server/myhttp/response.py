@@ -17,8 +17,9 @@ class HttpResponseHeader:
         self.reason_phrase = reason_phrase
 
     def __str__(self):
-        return HTTP_VERSION + " " + str(self.status_code) + " " + self.reason_phrase
-
+        s = HTTP_VERSION + " " + str(self.status_code) + " " + self.reason_phrase + "\nAccess-Control-Allow-Origin: *"
+        print(s)
+        return s
 
 class HttpResponseBody:
     def __init__(
