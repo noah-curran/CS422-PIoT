@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/CS422-PIoT/website/static/css/main.9738bf5c.chunk.css",
+    "main.js": "/CS422-PIoT/website/static/js/main.7134cfb7.chunk.js",
+    "main.js.map": "/CS422-PIoT/website/static/js/main.7134cfb7.chunk.js.map",
+    "runtime-main.js": "/CS422-PIoT/website/static/js/runtime-main.f12d2de7.js",
+    "runtime-main.js.map": "/CS422-PIoT/website/static/js/runtime-main.f12d2de7.js.map",
+    "static/js/2.6e475bce.chunk.js": "/CS422-PIoT/website/static/js/2.6e475bce.chunk.js",
+    "static/js/2.6e475bce.chunk.js.map": "/CS422-PIoT/website/static/js/2.6e475bce.chunk.js.map",
+    "index.html": "/CS422-PIoT/website/index.html",
+    "precache-manifest.c9a0cb3b5ffcc2e67b36fa8095ce131f.js": "/CS422-PIoT/website/precache-manifest.c9a0cb3b5ffcc2e67b36fa8095ce131f.js",
+    "service-worker.js": "/CS422-PIoT/website/service-worker.js",
+    "static/css/main.9738bf5c.chunk.css.map": "/CS422-PIoT/website/static/css/main.9738bf5c.chunk.css.map",
+    "static/js/2.6e475bce.chunk.js.LICENSE.txt": "/CS422-PIoT/website/static/js/2.6e475bce.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f12d2de7.js",
+    "static/js/2.6e475bce.chunk.js",
+    "static/css/main.9738bf5c.chunk.css",
+    "static/js/main.7134cfb7.chunk.js"
+  ]
+}
