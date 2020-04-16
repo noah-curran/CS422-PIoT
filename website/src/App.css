@@ -1,0 +1,81 @@
+.App {
+  min-height: 100vh;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-input {
+  font-size: calc(10px + 2vmin);
+  font-weight: bold;
+  border-radius: 6px;
+  border-style: solid;
+  border-color:#2438ff00;
+  padding: 16px;
+  box-shadow: 16px 0px 32px 16px #282c3422;
+  flex: 1;
+}
+
+.App-input:hover {
+  border-style: solid;
+  border-color:#3487DA;
+}
+
+.App-input:focus {
+  outline: 0;
+  border-style: solid;
+  border-color:#3487DA;
+}
+
+.App-button {
+  font-size: calc(10px + 2vmin);
+  font-weight: bold;
+  border-radius: 6px;
+  border: none;
+  padding: 16px;
+  /* box-shadow: 16px 0px 32px 16px #282c3422; */
+  background-color: #3487DA;
+  color: white;
+  margin-left: 16px;
+}
+
+.App-button:focus {
+  outline: 0;
+}
+
+.App-button:hover {
+  background-color: #5698EB;
+  cursor: pointer;
+}
+
+.App-footer {
+  padding-bottom: 16px;
+  position: fixed;
+  top: calc(100vh - 64px);
+}
+
+.App-grid {
+  display: grid;
+  column-gap: 64px;
+  row-gap: 64px;
+  grid-template-areas: 
+    "card card card card";
+}
+
+.App-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 16px 0px 32px 16px #282c3422;
+  grid-area: 'card';
+  padding: 16px;
+  justify-self: center;
+}
