@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "67ce9a369bf2c6c0070850b6ad9f6435",
+    "revision": "697063b7687ac625d0b7fd27262e932e",
     "url": "/CS422-PIoT/website/index.html"
   },
   {
-    "revision": "eb18469c0a2b0cf4cf2d",
-    "url": "/CS422-PIoT/website/static/css/main.9738bf5c.chunk.css"
+    "revision": "81e4f62853e37d87de0b",
+    "url": "/CS422-PIoT/website/static/css/main.66ac14d6.chunk.css"
   },
   {
     "revision": "0a42f3d677dad40566f2",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CS422-PIoT/website/static/js/2.6e475bce.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eb18469c0a2b0cf4cf2d",
-    "url": "/CS422-PIoT/website/static/js/main.7134cfb7.chunk.js"
+    "revision": "81e4f62853e37d87de0b",
+    "url": "/CS422-PIoT/website/static/js/main.311a7085.chunk.js"
   },
   {
     "revision": "053ef0198b93bdc03887",

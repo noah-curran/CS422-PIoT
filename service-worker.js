@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/CS422-PIoT/website/precache-manifest.c9a0cb3b5ffcc2e67b36fa8095ce131f.js"
+  "/CS422-PIoT/website/precache-manifest.f1ce27e4feb03ddc70f87443a2596d23.js"
 );
 
 self.addEventListener('message', (event) => {
